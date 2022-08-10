@@ -31,6 +31,7 @@ function Form({ addContact, contacts }) {
     <form onSubmit={onSubmit}>
       <div>
         <input
+        required
         name='fullname'
         placeholder='Full Name'
         value={form.fullname}
